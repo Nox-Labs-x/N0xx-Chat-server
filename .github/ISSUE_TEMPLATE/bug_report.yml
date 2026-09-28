@@ -1,0 +1,39 @@
+name: Bug report
+description: Something with the server isn't working right
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting! **Don't post your Tailscale sign-in links, room codes or invite links here.** Issues are public.
+        Security problems go to the Security tab → *Report a vulnerability* instead.
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+    validations:
+      required: true
+  - type: textarea
+    id: log
+    attributes:
+      label: Server output
+      description: Paste what the server window (or `pm2 logs noxxchat`) shows. Remove any links first.
+      render: text
+  - type: input
+    id: version
+    attributes:
+      label: Server version
+      description: "Run `noxx-server -version`"
+      placeholder: "0.4.0"
+  - type: dropdown
+    id: os
+    attributes:
+      label: Running on
+      options: [Windows, Linux PC, Raspberry Pi, macOS, Other]
+    validations:
+      required: true
+  - type: dropdown
+    id: mode
+    attributes:
+      label: Mode
+      options: [Public link, "Private (Tailscale only)", Local network only]

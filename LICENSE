@@ -1,0 +1,51 @@
+N0xx Chat Software License
+
+Copyright (c) 2026 Nox Labs. All rights reserved.
+
+"Software" means the N0xx Chat desktop app ("noxx"), the noxx server program,
+their installers and packages, and the documentation in this repository.
+
+1. Permission to use
+   You may download, install and use the Software free of charge, for personal
+   or internal purposes, on any number of devices. You may share unmodified
+   copies of the official installers and packages, or links to this
+   repository's Releases page.
+
+2. Restrictions
+   Except to the extent applicable law expressly permits it despite this
+   restriction, you may not:
+   a. decompile, disassemble or reverse engineer the Software, or attempt to
+      derive its source code;
+   b. modify the Software, or create derivative works based on it;
+   c. sell, rent, lease or sublicense the Software, or distribute modified
+      copies of it;
+   d. remove or alter any copyright, license or attribution notice; or
+   e. present the Software, or anything based on it, as your own work.
+
+3. Third-party components
+   The Software includes open-source components that remain under their own
+   licenses. Their notices are in THIRD-PARTY-NOTICES.md. Nothing in this
+   license limits your rights under those licenses for those components.
+
+4. Ownership
+   The Software is licensed, not sold. Nox Labs keeps all rights not
+   expressly granted here.
+
+5. Termination
+   This license ends automatically if you break it. When it ends you must stop
+   using the Software and delete your copies.
+
+6. No warranty
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+   IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+   FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+
+7. Limitation of liability
+   TO THE MAXIMUM EXTENT PERMITTED BY LAW, IN NO EVENT SHALL NOX LABS BE
+   LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF
+   CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+   SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. Nothing in this
+   license excludes liability that cannot be excluded by law.
+
+Use of the Software is also subject to the Terms of Service (TERMS.md) and the
+Privacy Policy (PRIVACY.md) in this repository.
