@@ -1,8 +1,8 @@
 <div align="center">
 
-# N0xx Chat server
+# noxx chat server
 
-The server for [N0xx Chat](https://github.com/Nox-Labs-x/N0xx-Chat). Run it on a spare PC or a
+The server for [noxx chat](https://github.com/Nox-Labs-x/N0xx-Chat). Run it on a spare PC or a
 Raspberry Pi and your friends can connect from anywhere.
 
 **[Windows](https://github.com/Nox-Labs-x/N0xx-Chat-server/releases/latest/download/noxx-server-windows.zip)** ·
@@ -20,8 +20,9 @@ It can't read anything. All it does is pass encrypted data between people in the
 doesn't store messages or keep logs, and calls go directly between friends, so it barely uses
 anything.
 
-If someone opens your server link in a browser, they get a page with the app download and the
-room code from their invite.
+If someone opens your server link (or an invite link) in a browser, they get a page with the app
+download, the room code from their invite, and a button that opens the invite straight in noxx chat
+if they already have it.
 
 ## Windows
 

@@ -1,17 +1,17 @@
 # Third-party notices
 
-N0xx Chat (the noxx app and the noxx server) is built with the open-source software listed below. Each
+N0xx Chat (the noxx chat app and server) is built with the open-source software listed below. Each
 component is used under its own license, and those licenses still apply to it. N0xx Chat's own
 license ([LICENSE](LICENSE)) doesn't change them.
 
 **MPL-2.0 components.** The source code for these components is available unmodified from
 <https://crates.io> under the name and version shown: cssparser 0.37.0, cssparser-macros 0.7.1, dtoa-short 0.3.5, option-ext 0.2.0, selectors 0.38.0.
 
-## noxx server
+## noxx chat server
 
 | Component | Version | License | Copyright |
 |---|---|---|---|
-| Go standard library | go1.26.6 | BSD-3-Clause | Copyright 2009 The Go Authors |
+| Go standard library | go1.24.7 | BSD-3-Clause | Copyright 2009 The Go Authors |
 | filippo.io/edwards25519 | v1.2.0 | BSD-3-Clause | Copyright (c) 2009 The Go Authors. All rights reserved. |
 | github.com/coder/websocket | v1.8.15 | 0BSD | Copyright (c) 2025 Coder |
 | github.com/creachadair/msync | v0.8.1 | BSD-3-Clause | Copyright (C) 2022, Michael J. Fromberger |
@@ -49,7 +49,7 @@ license ([LICENSE](LICENSE)) doesn't change them.
 | gvisor.dev/gvisor | v0.0.0-20260224225140-573d5e7127a8 | Apache-2.0 AND BSD-3-Clause AND MIT |  |
 | tailscale.com | v1.102.5 | BSD-3-Clause | Copyright (c) 2020 Tailscale Inc & contributors.<br>Copyright (c) Tailscale Inc & contributors |
 
-## noxx app
+## noxx chat app
 
 | Component | Version | License | Copyright |
 |---|---|---|---|
@@ -100,6 +100,8 @@ license ([LICENSE](LICENSE)) doesn't change them.
 | cfg-if | 1.0.5 | MIT OR Apache-2.0 | Copyright (c) 2014 Alex Crichton |
 | chrono | 0.4.45 | MIT OR Apache-2.0 | Copyright (c) 2014, Kang Seonghoon. |
 | concurrent-queue | 2.5.0 | Apache-2.0 OR MIT | Authors: Stjepan Glavina <stjepang@gmail.com>, Taiki Endo <te316e89@gmail.com>, John Nunley <dev@notgull.net> |
+| const-random | 0.1.18 | MIT OR Apache-2.0 | Copyright (c) 2016 Amanieu d'Antras |
+| const-random-macro | 0.1.16 | MIT OR Apache-2.0 | Copyright (c) 2016 Amanieu d'Antras |
 | cookie | 0.18.2 | MIT OR Apache-2.0 | Copyright 2017 Sergio Benitez<br>Copyright 2014 Alex Chricton<br>Copyright (c) 2017 Sergio Benitez<br>Copyright (c) 2014 Alex Crichton |
 | core-foundation | 0.10.1 | MIT OR Apache-2.0 | Copyright (c) 2012-2013 Mozilla Foundation |
 | core-foundation-sys | 0.8.7 | MIT OR Apache-2.0 | Copyright (c) 2012-2013 Mozilla Foundation |
@@ -108,7 +110,10 @@ license ([LICENSE](LICENSE)) doesn't change them.
 | cpufeatures | 0.2.17 | MIT OR Apache-2.0 | Copyright (c) 2020-2025 The RustCrypto Project Developers |
 | crc32fast | 1.5.2 | MIT OR Apache-2.0 | Copyright (c) 2018 Sam Rijs, Alex Crichton and contributors |
 | crossbeam-channel | 0.5.17 | MIT OR Apache-2.0 | Copyright (c) 2019 The Crossbeam Project Developers<br>COPYRIGHT AND/OR OTHER APPLICABLE LAW. ANY USE OF THE WORK OTHER THAN AS<br>copyright protection under copyright law or other applicable laws.<br>Copyright (c) 2009 The Go Authors. All rights reserved. |
+| crossbeam-deque | 0.8.8 | MIT OR Apache-2.0 | Copyright (c) 2019 The Crossbeam Project Developers |
+| crossbeam-epoch | 0.9.21 | MIT OR Apache-2.0 | Copyright (c) 2019 The Crossbeam Project Developers |
 | crossbeam-utils | 0.8.23 | MIT OR Apache-2.0 | Copyright (c) 2019 The Crossbeam Project Developers |
+| crunchy | 0.2.4 | MIT | Copyright 2017-2023 Eira Fransham. |
 | crypto-common | 0.1.7 | MIT OR Apache-2.0 | Copyright (c) 2021 RustCrypto Developers |
 | cssparser | 0.37.0 | MPL-2.0 | Authors: Simon Sapin <simon.sapin@exyr.org> |
 | cssparser-macros | 0.7.1 | MPL-2.0 | Authors: Simon Sapin <simon.sapin@exyr.org> |
@@ -130,12 +135,14 @@ license ([LICENSE](LICENSE)) doesn't change them.
 | displaydoc | 0.2.7 | MIT OR Apache-2.0 | Authors: Jane Lusby <jlusby@yaah.dev> |
 | dlopen2 | 0.8.2 | MIT | Authors: Szymon Wieloch <szymon.wieloch@gmail.com>, Ahmed Masud <ahmed.masud@saf.ai>, OpenByte <development.openbyte@gmail.com> |
 | dlopen2_derive | 0.4.3 | MIT | Authors: Szymon Wieloch <szymon.wieloch@gmail.com>, OpenByte <development.openbyte@gmail.com> |
+| dlv-list | 0.5.2 | MIT OR Apache-2.0 | Copyright (c) 2022 Scott Godwin |
 | dom_query | 0.28.0 | MIT | Copyright (c) 2023 Mykola Humanov |
 | dpi | 0.1.2 | Apache-2.0 AND MIT | Copyright (c) 2018 Jorge Aparicio<br>copyright:<br>Copyright © 2005-2020 Rich Felker, et al.<br>Copyright © 1993,2004 Sun Microsystems or |
 | dtoa | 1.0.11 | MIT OR Apache-2.0 | Authors: David Tolnay <dtolnay@gmail.com> |
 | dtoa-short | 0.3.5 | MPL-2.0 | Authors: Xidorn Quan <me@upsuper.org> |
 | dunce | 1.0.5 | CC0-1.0 OR MIT-0 OR Apache-2.0 | Authors: Kornel <kornel@geekhood.net> |
 | dyn-clone | 1.0.20 | MIT OR Apache-2.0 | Authors: David Tolnay <dtolnay@gmail.com> |
+| either | 1.18.0 | MIT OR Apache-2.0 | Copyright (c) 2015 |
 | embed-resource | 3.0.11 | MIT | Copyright (c) 2017 nabijaczleweli |
 | embed_plist | 1.2.2 | MIT OR Apache-2.0 | Copyright (c) 2020 Nikolai Vazquez |
 | endi | 1.1.1 | MIT | Authors: Zeeshan Ali Khan <zeenix@gmail.com> |
@@ -174,6 +181,7 @@ license ([LICENSE](LICENSE)) doesn't change them.
 | gdkx11 | 0.18.2 | MIT | Copyrights in the gtk-rs Project project are retained by their contributors. |
 | gdkx11-sys | 0.18.2 | MIT | Authors: The gtk-rs Project Developers |
 | generic-array | 0.14.7 | MIT | Copyright (c) 2015 Bartłomiej Kamiński |
+| getrandom | 0.2.17 | MIT OR Apache-2.0 | Copyright (c) 2018-2024 The rust-random Project Developers<br>Copyright (c) 2014 The Rust Project Developers |
 | getrandom | 0.3.4 | MIT OR Apache-2.0 | Copyright (c) 2018-2025 The rust-random Project Developers<br>Copyright (c) 2014 The Rust Project Developers |
 | getrandom | 0.4.3 | MIT OR Apache-2.0 | Copyright (c) 2018-2026 The rust-random Project Developers<br>Copyright (c) 2014 The Rust Project Developers |
 | gio | 0.18.4 | MIT | Copyrights in the gtk-rs Project project are retained by their contributors. |
@@ -187,6 +195,7 @@ license ([LICENSE](LICENSE)) doesn't change them.
 | gtk-sys | 0.18.2 | MIT | Authors: The gtk-rs Project Developers |
 | gtk3-macros | 0.18.2 | MIT | Copyrights in the gtk-rs Project project are retained by their contributors. |
 | hashbrown | 0.12.3 | MIT OR Apache-2.0 | Copyright (c) 2016 Amanieu d'Antras |
+| hashbrown | 0.14.5 | MIT OR Apache-2.0 | Copyright (c) 2016 Amanieu d'Antras |
 | hashbrown | 0.17.1 | MIT OR Apache-2.0 | Copyright (c) 2016 Amanieu d'Antras |
 | heck | 0.4.1 | MIT OR Apache-2.0 | Copyright (c) 2015 The Rust Project Developers |
 | heck | 0.5.0 | MIT OR Apache-2.0 | Copyright (c) 2015 The Rust Project Developers |
@@ -253,6 +262,7 @@ license ([LICENSE](LICENSE)) doesn't change them.
 | once_cell | 1.21.4 | MIT OR Apache-2.0 | Authors: Aleksey Kladov <aleksey.kladov@gmail.com> |
 | open | 5.4.4 | MIT | Copyright © `2015` `Sebastian Thiel` |
 | option-ext | 0.2.0 | MPL-2.0 | Authors: Simon Ochsenreither <simon@ochsenreither.de> |
+| ordered-multimap | 0.7.3 | MIT | Copyright (c) 2018 sgodwincs |
 | ordered-stream | 0.2.0 | MIT OR Apache-2.0 | Authors: Daniel De Graaf <code@danieldg.net>, Zeeshan Ali Khan <zeeshanak@gnome.org> |
 | pango | 0.18.3 | MIT | Copyrights in the gtk-rs Project project are retained by their contributors. |
 | pango-sys | 0.18.0 | MIT | Authors: The gtk-rs Project Developers |
@@ -284,11 +294,14 @@ license ([LICENSE](LICENSE)) doesn't change them.
 | quick-xml | 0.42.0 | MIT | Copyright (c) 2016 Johann Tuffe |
 | quote | 1.0.47 | MIT OR Apache-2.0 | Authors: David Tolnay <dtolnay@gmail.com> |
 | raw-window-handle | 0.6.2 | MIT OR Apache-2.0 OR Zlib | Copyright (c) 2019 Osspial<br>Copyright (c) 2020 Osspial |
+| rayon | 1.12.0 | MIT OR Apache-2.0 | Copyright (c) 2010 The Rust Project Developers |
+| rayon-core | 1.13.0 | MIT OR Apache-2.0 | Copyright (c) 2010 The Rust Project Developers |
 | ref-cast | 1.0.27 | MIT OR Apache-2.0 | Authors: David Tolnay <dtolnay@gmail.com> |
 | ref-cast-impl | 1.0.27 | MIT OR Apache-2.0 | Authors: David Tolnay <dtolnay@gmail.com> |
 | regex | 1.13.1 | MIT OR Apache-2.0 | Copyright (c) 2014 The Rust Project Developers |
 | regex-automata | 0.4.18 | MIT OR Apache-2.0 | Copyright (c) 2014 The Rust Project Developers |
 | regex-syntax | 0.8.11 | MIT OR Apache-2.0 | Copyright (c) 2014 The Rust Project Developers |
+| rust-ini | 0.21.3 | MIT | Copyright (c) 2014 Y. T. CHUNG |
 | rustc-hash | 2.1.3 | Apache-2.0 OR MIT | Authors: The Rust Project Developers |
 | rustc_version | 0.4.1 | MIT OR Apache-2.0 | Copyright (c) 2016 The Rust Project Developers |
 | rustix | 1.1.5 | Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT | Copyrights in the `rustix` project are retained by their contributors. |
@@ -342,6 +355,7 @@ license ([LICENSE](LICENSE)) doesn't change them.
 | tauri-codegen | 2.7.0 | Apache-2.0 OR MIT | Copyright (c) 2017 - Present Tauri Apps Contributors |
 | tauri-macros | 2.7.0 | Apache-2.0 OR MIT | Copyright (c) 2017 - Present Tauri Apps Contributors |
 | tauri-plugin | 2.7.0 | Apache-2.0 OR MIT | Authors: Tauri Programme within The Commons Conservancy |
+| tauri-plugin-deep-link | 2.6.0 | Apache-2.0 OR MIT | Copyright (c) 2017 - Present Tauri Apps Contributors |
 | tauri-plugin-opener | 2.6.0 | Apache-2.0 OR MIT | Copyright (c) 2017 - Present Tauri Apps Contributors |
 | tauri-plugin-single-instance | 2.5.0 | Apache-2.0 OR MIT | Copyright (c) 2017 - Present The Tauri Programme in the Commons Conservancy |
 | tauri-runtime | 2.12.0 | Apache-2.0 OR MIT | Copyright (c) 2017 - Present Tauri Apps Contributors |
@@ -356,6 +370,7 @@ license ([LICENSE](LICENSE)) doesn't change them.
 | time | 0.3.55 | MIT OR Apache-2.0 | Copyright (c) Jacob Pratt et al. |
 | time-core | 0.1.9 | MIT OR Apache-2.0 | Copyright (c) Jacob Pratt et al. |
 | time-macros | 0.2.32 | MIT OR Apache-2.0 | Copyright (c) Jacob Pratt et al. |
+| tiny-keccak | 2.0.2 | CC0-1.0 | Authors: debris <marek.kotewicz@gmail.com> |
 | tinystr | 0.8.4 | Unicode-3.0 | COPYRIGHT AND PERMISSION NOTICE<br>Copyright © 2020-2024 Unicode, Inc. |
 | tinyvec | 1.13.3 | Zlib OR Apache-2.0 OR MIT | Copyright (c) 2019 Daniel "Lokathor" Gee. |
 | tokio | 1.53.1 | MIT | Copyright (c) Tokio Contributors |
@@ -396,6 +411,7 @@ license ([LICENSE](LICENSE)) doesn't change them.
 | window-vibrancy | 0.8.1 | Apache-2.0 OR MIT | Copyright (c) 2020-2022 Tauri Programme within The Commons Conservancy |
 | windows | 0.61.3 | MIT OR Apache-2.0 | Copyright (c) Microsoft Corporation. |
 | windows | 0.62.2 | MIT OR Apache-2.0 | Copyright (c) Microsoft Corporation. |
+| windows-capture | 2.0.1 | MIT | Copyright (c) 2023 NiiightmareXD |
 | windows-collections | 0.2.0 | MIT OR Apache-2.0 | Copyright (c) Microsoft Corporation. |
 | windows-collections | 0.3.2 | MIT OR Apache-2.0 | Copyright (c) Microsoft Corporation. |
 | windows-core | 0.61.2 | MIT OR Apache-2.0 | Copyright (c) Microsoft Corporation. |
@@ -408,6 +424,7 @@ license ([LICENSE](LICENSE)) doesn't change them.
 | windows-link | 0.2.1 | MIT OR Apache-2.0 | Copyright (c) Microsoft Corporation. |
 | windows-numerics | 0.2.0 | MIT OR Apache-2.0 | Copyright (c) Microsoft Corporation. |
 | windows-numerics | 0.3.1 | MIT OR Apache-2.0 | Copyright (c) Microsoft Corporation. |
+| windows-registry | 0.6.1 | MIT OR Apache-2.0 | Copyright (c) Microsoft Corporation. |
 | windows-result | 0.3.4 | MIT OR Apache-2.0 | Copyright (c) Microsoft Corporation. |
 | windows-result | 0.4.1 | MIT OR Apache-2.0 | Copyright (c) Microsoft Corporation. |
 | windows-strings | 0.4.2 | MIT OR Apache-2.0 | Copyright (c) Microsoft Corporation. |

@@ -1,8 +1,8 @@
 # Terms of Service
 
-**Effective: 28 September 2026**
+**Effective: 29 September 2026**
 
-These terms cover **N0xx Chat**: the noxx desktop app, the noxx server program, and the
+These terms cover **N0xx Chat**: the noxx chat desktop app, the noxx chat server program, and the
 [N0xx-Chat](https://github.com/Nox-Labs-x/N0xx-Chat) and
 [N0xx-Chat-server](https://github.com/Nox-Labs-x/N0xx-Chat-server) repositories (together, "N0xx Chat").
 N0xx Chat is made by **Nox Labs** ("we", "us").
@@ -30,8 +30,10 @@ Don't use N0xx Chat to:
 - break any law, or help anyone else break one;
 - share child sexual abuse material, or any content that sexualises minors;
 - harass, threaten, stalk or dox anyone, or share intimate images of someone without their consent;
-- spread malware, or attack, overload or gain unauthorised access to any system, including noxx servers;
+- spread malware, or attack, overload or gain unauthorised access to any system, including noxx chat servers;
 - infringe anyone else's copyright, trademarks, privacy or other rights;
+- record, clip or share other people's messages, voices or video without their permission, or try
+  to get around the app's protection against screen capture;
 - send spam, or impersonate another person.
 
 **Recording:** only record calls or screens where you're allowed to. Where the law requires
@@ -39,7 +41,7 @@ everyone's consent, get it first. The app shows others a recording indicator whi
 
 ## 4. Hosting a server
 
-If you run a noxx server, **you're the operator of that server** and responsible for it. That includes
+If you run a noxx chat server, **you're the operator of that server** and responsible for it. That includes
 following the laws that apply to you, following the terms of any service you use with it (such as
 Tailscale), and deciding who you share your server's link with. Because content is end-to-end
 encrypted and never stored, hosts can't see or moderate it. A host can stop sharing their link or

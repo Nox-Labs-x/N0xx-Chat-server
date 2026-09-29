@@ -5,7 +5,7 @@
 Please report security problems **privately**: open this repository's **Security** tab →
 **Report a vulnerability**. Don't open a public issue, and never post real room codes or invite links.
 
-Include what you found, the steps to reproduce it, and the version (Windows: Settings → Apps → noxx; server: `noxx-server -version`).
+Include what you found, the steps to reproduce it, and the version (Windows: Settings → Apps → noxx chat; server: `noxx-server -version`).
 We aim to reply within 7 days and will credit you in the release notes if you'd like.
 
 Only the latest release is supported. Please update before reporting.

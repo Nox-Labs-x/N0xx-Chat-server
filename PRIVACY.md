@@ -1,12 +1,12 @@
 # Privacy Policy
 
-**Effective: 28 September 2026**
+**Effective: 29 September 2026**
 
 **The short version:** N0xx Chat is built so that nobody can read your messages or calls. That
 includes us (Nox Labs) and whoever runs your server. There are no accounts, no analytics and no
 tracking, and nothing you say is stored on a server.
 
-This policy covers the noxx desktop app, the noxx server program, and these repositories.
+This policy covers the noxx chat desktop app, the noxx chat server program, and these repositories.
 
 ## What we collect
 
@@ -17,12 +17,15 @@ contact us. We have no servers of our own that your app talks to.
 
 The app stores its settings locally on your device:
 
-- your display name, chosen microphone, speaker and camera, and your preferences;
+- your display name and profile (picture, colour, status, "about me"), chosen microphone, speaker
+  and camera, and your preferences;
 - the server address you entered;
 - if **Remember recent rooms** is on (Settings → Privacy): recent room names, codes and servers.
 
-You can clear recent rooms in Settings → Privacy, and remove everything by uninstalling the app.
-Screen recordings are only saved where you choose, on your own device.
+You can clear recent rooms in Settings → Privacy & safety, and remove everything by uninstalling the
+app. Screen recordings are saved on your own device (in the desktop app, in your Videos folder under
+"noxx chat") and are never uploaded. Recordings contain your screen, your microphone and your
+computer's sound. They never include other people's voices, cameras or screens from the app.
 
 ## What a server can see
 
@@ -37,16 +40,20 @@ A server can see:
 - a random-looking room identifier made from the code, which can't practically be turned back into it;
 - when devices connect and disconnect, and the size and timing of the encrypted data.
 
-A server **cannot** see display names, messages, typing, voice, video or screen shares. The official
-noxx server keeps no message history and no log of any of the above. It only displays a running count
+A server **cannot** see display names, profiles, messages, reactions, typing, voice, video or screen
+shares. The official noxx chat server keeps no message history and no log of any of the above. It only displays a running count
 of connected people. A host could change their own server software, so only use servers run by people
 you trust.
 
 ## What other people in a room can see
 
-Everyone who has a room's code can read the room's messages and see your display name and voice or
-camera status. When someone joins, another member's device may share recent messages with them (up
-to the last 100). Nothing is kept once everyone has left.
+Everyone who has a room's code can read the room's messages and see your display name, profile and
+voice or camera status. When someone joins, another member's device may share recent messages with
+them (up to the last 100). Nothing is kept once everyone has left, and disappearing messages are
+removed from everyone's screen when their timer runs out.
+
+In the desktop app on Windows and macOS, the app window is hidden from screen capture, so other apps
+can't record or clip what's on it. No app can stop someone photographing their screen.
 
 Voice, video and screen sharing are **peer-to-peer**, so the people you call can see your IP address.
 
@@ -55,7 +62,7 @@ Voice, video and screen sharing are **peer-to-peer**, so the people you call can
 - **STUN servers** (Cloudflare and Google) help calls connect and see your IP address when a call
   starts. They never see call content.
 - **Tailscale:** if a host uses Tailscale, connections to their server pass through Tailscale's
-  network. Content stays end-to-end encrypted. The noxx server turns off Tailscale's diagnostic log
+  network. Content stays end-to-end encrypted. The noxx chat server turns off Tailscale's diagnostic log
   upload. [Tailscale's privacy policy](https://tailscale.com/privacy-policy) applies to hosts' use.
 - **GitHub** serves the downloads. [GitHub's privacy statement](https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement) applies when you visit or download.
 - **Microsoft WebView2:** on Windows the app uses the system's web engine, so Microsoft's terms and
