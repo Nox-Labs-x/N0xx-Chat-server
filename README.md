@@ -18,7 +18,8 @@ Tailscale, not the rest of your PC or network.
 
 It can't read anything. All it does is pass encrypted data between people in the same room. It
 doesn't store messages or keep logs, and calls go directly between friends, so it barely uses
-anything.
+anything. The one thing it does keep is the list of accounts, so people sign in and get a verified
+@username.
 
 If someone opens your server link (or an invite link) in a browser, they get a page with the app
 download, the room code from their invite, and a button that opens the invite straight in noxx chat
@@ -58,6 +59,43 @@ Rather use systemd? Run `sudo ./install-service.sh`, then watch it with `journal
 Your login is saved in `~/.config/noxx-server`. To update, replace the files and restart, and the
 link stays the same.
 
+## Accounts
+
+People sign in to your server with a username and password. Messages stay end-to-end encrypted, so
+the server only knows who's connected, never what they say.
+
+1. The first time it starts, the window (or `pm2 logs`) shows a **setup code**:
+   ```
+   No accounts yet. Open noxx chat, pick Create account, and use this
+   setup code to make the first account. It becomes the admin:
+     SETUP CODE: K7QF-2MXP-9TRA
+   ```
+2. In noxx chat, put in your server link, click **Create account**, and use that code. That account
+   is the admin.
+3. Invite people from **Settings → Server admin → Make an invite code**. Each code works once and
+   lasts a week. You can also open sign-ups to anyone with the link, or close them.
+
+The admin page also lists everyone, lets you remove an account (they get disconnected straight
+away), reset a password, or make someone else an admin.
+
+From the command line (works while the server runs):
+
+```sh
+noxx-server accounts list
+noxx-server accounts add maya -admin     # prints a password for them
+noxx-server accounts reset maya          # new password, signs them out everywhere
+noxx-server accounts remove maya
+noxx-server accounts signup open|invite|closed
+noxx-server accounts invite
+```
+
+The accounts live in `accounts.json` next to the Tailscale login (`~/.config/noxx-server` on Linux,
+`%AppData%\noxx-server` on Windows). Passwords are stored as Argon2id hashes. Back that file up if
+you move the server.
+
+Don't want accounts? Start it with `-accounts=false` and anyone with a room code can join, like
+before. Apps older than 0.6.0 can't sign in, so everyone needs the new app if accounts are on.
+
 ## If something's off
 
 - **The link ends in `-1`.** You already have a device called `noxx` on Tailscale, probably an old
@@ -67,10 +105,14 @@ link stays the same.
   Windows, `ipconfig /flushdns` fixes it if the PC looked the link up too early.
 - **It asks you to sign in again after a few months.** Tailscale expires devices after 180 days. You
   can turn that off: Machines → noxx → ⋯ → Disable key expiry.
+- **Lost the setup code?** Restart the server and it prints a new one, or make the first account
+  with `noxx-server accounts add yourname -admin`.
+- **Forgot your admin password?** `noxx-server accounts reset yourname` on the server.
 - **Someone can chat but calls won't connect.** Some networks block direct connections. Private mode
   usually fixes it, or you can add a TURN server with `-ice`.
 
-Options: `-tailscale`, `-public`, `-name noxx`, `-addr :8080`, `-downloads <folder>`, `-ice <json>`, `-version`
+Options: `-tailscale`, `-public`, `-name noxx`, `-addr :8080`, `-accounts=false`,
+`-signup open|invite|closed`, `-data <folder>`, `-downloads <folder>`, `-ice <json>`, `-version`
 
 ---
 

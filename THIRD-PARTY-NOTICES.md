@@ -13,8 +13,10 @@ license ([LICENSE](LICENSE)) doesn't change them.
 |---|---|---|---|
 | Go standard library | go1.24.7 | BSD-3-Clause | Copyright 2009 The Go Authors |
 | filippo.io/edwards25519 | v1.2.0 | BSD-3-Clause | Copyright (c) 2009 The Go Authors. All rights reserved. |
+| github.com/alexbrainman/sspi | v0.0.0-20231016080023-1a75b4708caa | BSD-3-Clause | Copyright (c) 2012 The Go Authors. All rights reserved. |
 | github.com/coder/websocket | v1.8.15 | 0BSD | Copyright (c) 2025 Coder |
 | github.com/creachadair/msync | v0.8.1 | BSD-3-Clause | Copyright (C) 2022, Michael J. Fromberger |
+| github.com/dblohm7/wingoes | v0.0.0-20240119213807-a09d6be7affa | BSD-3-Clause | Copyright (c) 2022, Tailscale Inc. |
 | github.com/fxamacker/cbor/v2 | v2.9.0 | MIT | Copyright (c) 2019-present Faye Amacker |
 | github.com/gaissmai/bart | v0.26.1 | MIT | Copyright (c) 2024 Karl Gaissmaier |
 | github.com/go-json-experiment/json | v0.0.0-20260214004413-d219187c3433 | BSD-3-Clause | Copyright (c) 2020 The Go Authors. All rights reserved. |
@@ -30,6 +32,8 @@ license ([LICENSE](LICENSE)) doesn't change them.
 | github.com/mitchellh/go-ps | v1.0.0 | MIT | Copyright (c) 2014 Mitchell Hashimoto |
 | github.com/pires/go-proxyproto | v0.8.1 | Apache-2.0 | Copyright 2016 Paulo Pires |
 | github.com/safchain/ethtool | v0.3.0 | Apache-2.0 |  |
+| github.com/tailscale/certstore | v0.1.1-0.20260409135935-3638fb84b77d | MIT | Copyright (c) 2017 Ben Toews. |
+| github.com/tailscale/go-winio | v0.0.0-20231025203758-c4f33415bf55 | MIT | Copyright (c) 2015 Microsoft |
 | github.com/tailscale/hujson | v0.0.0-20260302212456-ecc657c15afd | BSD-3-Clause | Copyright (c) 2019 Tailscale Inc. All rights reserved. |
 | github.com/tailscale/peercred | v0.0.0-20250107143737-35a0c7bd7edc | BSD-3-Clause | Copyright (c) 2021, Tailscale Inc. |
 | github.com/tailscale/web-client-prebuilt | v0.0.0-20250124233751-d4cd19a26976 | BSD-3-Clause | Copyright (c) 2020 Tailscale Inc & AUTHORS. |
@@ -46,6 +50,8 @@ license ([LICENSE](LICENSE)) doesn't change them.
 | golang.org/x/term | v0.45.0 | BSD-3-Clause | Copyright 2009 The Go Authors. |
 | golang.org/x/text | v0.40.0 | BSD-3-Clause | Copyright 2009 The Go Authors. |
 | golang.org/x/time | v0.15.0 | BSD-3-Clause | Copyright 2009 The Go Authors. |
+| golang.zx2c4.com/wintun | v0.0.0-20230126152724-0fa3db229ce2 | MIT |  |
+| golang.zx2c4.com/wireguard/windows | v0.5.3 | MIT | Copyright (C) 2018-2021 WireGuard LLC. All Rights Reserved. |
 | gvisor.dev/gvisor | v0.0.0-20260224225140-573d5e7127a8 | Apache-2.0 AND BSD-3-Clause AND MIT |  |
 | tailscale.com | v1.102.5 | BSD-3-Clause | Copyright (c) 2020 Tailscale Inc & contributors.<br>Copyright (c) Tailscale Inc & contributors |
 
@@ -190,6 +196,7 @@ license ([LICENSE](LICENSE)) doesn't change them.
 | glib-macros | 0.18.5 | MIT | Copyrights in the gtk-rs Project project are retained by their contributors. |
 | glib-sys | 0.18.1 | MIT | Authors: The gtk-rs Project Developers |
 | glob | 0.3.4 | MIT OR Apache-2.0 | Copyright (c) 2014 The Rust Project Developers |
+| global-hotkey | 0.8.0 | Apache-2.0 OR MIT | Copyright (c) 2022-2022 Tauri Programme within The Commons Conservancy |
 | gobject-sys | 0.18.0 | MIT | Authors: The gtk-rs Project Developers |
 | gtk | 0.18.2 | MIT | Copyrights in the gtk-rs Project project are retained by their contributors. |
 | gtk-sys | 0.18.2 | MIT | Authors: The gtk-rs Project Developers |
@@ -228,6 +235,7 @@ license ([LICENSE](LICENSE)) doesn't change them.
 | jiff-tzdb-platform | 0.1.3 | Unlicense OR MIT | Copyright (c) 2015 Andrew Gallant |
 | json-patch | 4.2.0 | MIT OR Apache-2.0 | Copyright (c) 2017 Ivan Dubrov |
 | jsonptr | 0.7.1 | MIT OR Apache-2.0 | Copyright 2024 Chance Dinkins<br>Copyright (c) 2022 Chance Dinkins |
+| keyboard-types | 0.7.0 | MIT OR Apache-2.0 | Copyright (c) 2017 Pyfisch |
 | keyboard-types | 0.8.3 | MIT OR Apache-2.0 | Copyright (c) 2017 Pyfisch |
 | libappindicator | 0.9.0 | Apache-2.0 OR MIT | Copyright (c) 2017-2021 qDot<br>Copyright (c) 2021 Tauri Apps Contributors |
 | libappindicator-sys | 0.9.0 | Apache-2.0 OR MIT |  |
@@ -238,6 +246,7 @@ license ([LICENSE](LICENSE)) doesn't change them.
 | litemap | 0.8.3 | Unicode-3.0 | COPYRIGHT AND PERMISSION NOTICE<br>Copyright © 2020-2024 Unicode, Inc. |
 | lock_api | 0.4.14 | MIT OR Apache-2.0 | Copyright (c) 2016 The Rust Project Developers |
 | log | 0.4.34 | MIT OR Apache-2.0 | Copyright (c) 2014 The Rust Project Developers |
+| mac-notification-sys | 0.6.15 | MIT OR Apache-2.0 | Authors: Felix Döring <development@felixdoering.com>, Hendrik Sollich <hendrik@hoodie.de> |
 | markup5ever | 0.39.0 | MIT OR Apache-2.0 | Copyright (c) 2014 The html5ever Project Developers |
 | memchr | 2.8.3 | Unlicense OR MIT | Copyright (c) 2015 Andrew Gallant |
 | memoffset | 0.9.1 | MIT | Copyright (c) 2017 Gilad Naaman |
@@ -247,6 +256,7 @@ license ([LICENSE](LICENSE)) doesn't change them.
 | mio | 1.2.3 | MIT | Copyright (c) 2014 Carl Lerche and other MIO contributors |
 | muda | 0.20.0 | Apache-2.0 OR MIT | Copyright (c) 2022-2022 Tauri Programme within The Commons Conservancy |
 | new_debug_unreachable | 1.0.6 | MIT | Copyright (c) 2015 Jonathan Reem |
+| notify-rust | 4.18.1 | MIT OR Apache-2.0 | Copyright (c) 2017 Hendrik Sollich |
 | num-conv | 0.2.2 | MIT OR Apache-2.0 | Copyright (c) Jacob Pratt |
 | num-traits | 0.2.19 | MIT OR Apache-2.0 | Copyright (c) 2014 The Rust Project Developers |
 | objc2 | 0.6.4 | MIT | Authors: Mads Marquart <mads@marquart.dk> |
@@ -284,6 +294,7 @@ license ([LICENSE](LICENSE)) doesn't change them.
 | polling | 3.11.0 | Apache-2.0 OR MIT | Authors: Stjepan Glavina <stjepang@gmail.com>, John Nunley <dev@notgull.net> |
 | potential_utf | 0.1.6 | Unicode-3.0 | COPYRIGHT AND PERMISSION NOTICE<br>Copyright © 2020-2024 Unicode, Inc. |
 | powerfmt | 0.2.0 | MIT OR Apache-2.0 | Copyright 2023 Jacob Pratt et al.<br>Copyright (c) 2023 Jacob Pratt et al. |
+| ppv-lite86 | 0.2.21 | MIT OR Apache-2.0 | Copyright 2019 The CryptoCorrosion Contributors<br>Copyright (c) 2019 The CryptoCorrosion Contributors |
 | precomputed-hash | 0.1.1 | MIT | Copyright (c) 2017 Emilio Cobos Álvarez |
 | proc-macro-crate | 1.3.1 | MIT OR Apache-2.0 | Authors: Bastian Köcher <git@kchr.de> |
 | proc-macro-crate | 2.0.2 | MIT OR Apache-2.0 | Authors: Bastian Köcher <git@kchr.de> |
@@ -293,6 +304,9 @@ license ([LICENSE](LICENSE)) doesn't change them.
 | proc-macro2 | 1.0.107 | MIT OR Apache-2.0 | Authors: David Tolnay <dtolnay@gmail.com>, Alex Crichton <alex@alexcrichton.com> |
 | quick-xml | 0.42.0 | MIT | Copyright (c) 2016 Johann Tuffe |
 | quote | 1.0.47 | MIT OR Apache-2.0 | Authors: David Tolnay <dtolnay@gmail.com> |
+| rand | 0.9.5 | MIT OR Apache-2.0 | Copyrights in the Rand project are retained by their contributors. No<br>copyright assignment is required to contribute to the Rand project.<br>Copyright 2018 Developers of the Rand project<br>Copyright (c) 2014 The Rust Project Developers |
+| rand_chacha | 0.9.0 | MIT OR Apache-2.0 | Copyrights in the Rand project are retained by their contributors. No<br>copyright assignment is required to contribute to the Rand project.<br>Copyright 2018 Developers of the Rand project<br>Copyright (c) 2014 The Rust Project Developers |
+| rand_core | 0.9.5 | MIT OR Apache-2.0 | Copyrights in the Rand project are retained by their contributors. No<br>copyright assignment is required to contribute to the Rand project.<br>Copyright 2018 Developers of the Rand project<br>Copyright (c) 2014 The Rust Project Developers |
 | raw-window-handle | 0.6.2 | MIT OR Apache-2.0 OR Zlib | Copyright (c) 2019 Osspial<br>Copyright (c) 2020 Osspial |
 | rayon | 1.12.0 | MIT OR Apache-2.0 | Copyright (c) 2010 The Rust Project Developers |
 | rayon-core | 1.13.0 | MIT OR Apache-2.0 | Copyright (c) 2010 The Rust Project Developers |
@@ -356,12 +370,15 @@ license ([LICENSE](LICENSE)) doesn't change them.
 | tauri-macros | 2.7.0 | Apache-2.0 OR MIT | Copyright (c) 2017 - Present Tauri Apps Contributors |
 | tauri-plugin | 2.7.0 | Apache-2.0 OR MIT | Authors: Tauri Programme within The Commons Conservancy |
 | tauri-plugin-deep-link | 2.6.0 | Apache-2.0 OR MIT | Copyright (c) 2017 - Present Tauri Apps Contributors |
+| tauri-plugin-global-shortcut | 2.4.0 | Apache-2.0 OR MIT | Copyright (c) 2017 - Present Tauri Apps Contributors |
+| tauri-plugin-notification | 2.5.0 | Apache-2.0 OR MIT | Copyright (c) 2017 - Present Tauri Apps Contributors |
 | tauri-plugin-opener | 2.6.0 | Apache-2.0 OR MIT | Copyright (c) 2017 - Present Tauri Apps Contributors |
 | tauri-plugin-single-instance | 2.5.0 | Apache-2.0 OR MIT | Copyright (c) 2017 - Present The Tauri Programme in the Commons Conservancy |
 | tauri-runtime | 2.12.0 | Apache-2.0 OR MIT | Copyright (c) 2017 - Present Tauri Apps Contributors |
 | tauri-runtime-wry | 2.12.0 | Apache-2.0 OR MIT | Copyright (c) 2017 - Present Tauri Apps Contributors |
 | tauri-utils | 2.10.0 | Apache-2.0 OR MIT | Copyright (c) 2017 - Present Tauri Apps Contributors |
 | tauri-winres | 0.3.6 | MIT | Copyright (c) 2023 - Present Tauri Apps Contributors<br>Copyright (c) 2016 Max Resch |
+| tauri-winrt-notification | 0.8.1 | MIT OR Apache-2.0 | Copyright (c) 2017 - Present Tauri Apps Contributors |
 | tendril | 0.5.1 | MIT OR Apache-2.0 | Copyright (c) 2015 Keegan McAllister |
 | thiserror | 1.0.69 | MIT OR Apache-2.0 | Authors: David Tolnay <dtolnay@gmail.com> |
 | thiserror | 2.0.21 | MIT OR Apache-2.0 | Authors: David Tolnay <dtolnay@gmail.com> |
@@ -452,6 +469,7 @@ license ([LICENSE](LICENSE)) doesn't change them.
 | zbus_macros | 5.19.0 | MIT | Copyright (c) 2024 Zeeshan Ali Khan & zbus contributors |
 | zbus_names | 4.3.4 | MIT | Copyright (c) 2024 Zeeshan Ali Khan & zbus contributors |
 | zcheapstr | 1.1.0 | MIT | Copyright (c) 2026 Zeeshan Ali Khan & zcheapstr contributors |
+| zerocopy | 0.8.59 | BSD-2-Clause OR Apache-2.0 OR MIT | Copyright 2023 The Fuchsia Authors<br>Copyright 2019 The Fuchsia Authors. |
 | zerofrom | 0.1.8 | Unicode-3.0 | COPYRIGHT AND PERMISSION NOTICE<br>Copyright © 2020-2024 Unicode, Inc. |
 | zerofrom-derive | 0.1.8 | Unicode-3.0 | COPYRIGHT AND PERMISSION NOTICE<br>Copyright © 2020-2024 Unicode, Inc. |
 | zerotrie | 0.2.5 | Unicode-3.0 | COPYRIGHT AND PERMISSION NOTICE<br>Copyright © 2020-2024 Unicode, Inc. |

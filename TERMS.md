@@ -1,6 +1,6 @@
 # Terms of Service
 
-**Effective: 29 September 2026**
+**Effective: 2 October 2026**
 
 These terms cover **N0xx Chat**: the noxx chat desktop app, the noxx chat server program, and the
 [N0xx-Chat](https://github.com/Nox-Labs-x/N0xx-Chat) and
@@ -47,11 +47,16 @@ Tailscale), and deciding who you share your server's link with. Because content 
 encrypted and never stored, hosts can't see or moderate it. A host can stop sharing their link or
 shut the server down at any time.
 
+If your server uses accounts, you hold its account list (usernames and password hashes) and you're
+responsible for keeping that file safe, for who you make an admin, and for removing someone's account
+when they ask you to. Admins can remove accounts and reset passwords.
+
 ## 5. Problems with other people
 
 We don't run servers, can't see content and don't keep accounts, so **we can't remove messages or ban
-users**. If someone misuses a room: leave it, stop sharing its code, and create a new room. Hosts can
-restart or stop their server. Report illegal content or threats to your local authorities. Report
+users**. If someone misuses a room: leave it, stop sharing its code, and create a new room. On a
+server with accounts, its admins can remove someone's account. Hosts can also restart or stop their
+server. Report illegal content or threats to your local authorities. Report
 security problems as described in [SECURITY.md](SECURITY.md).
 
 ## 6. The software and your license
