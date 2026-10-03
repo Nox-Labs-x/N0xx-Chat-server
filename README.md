@@ -75,8 +75,12 @@ the server only knows who's connected, never what they say.
 3. Invite people from **Settings → Server admin → Make an invite code**. Each code works once and
    lasts a week. You can also open sign-ups to anyone with the link, or close them.
 
-The admin page also lists everyone, lets you remove an account (they get disconnected straight
-away), reset a password, or make someone else an admin.
+The admin page also lists everyone (and who's online right now), lets you remove an account
+(they get disconnected straight away), reset a password, or make someone else an admin. You can
+give the server a **name and welcome note** there too. People see it when they sign in and on your
+link's start page.
+
+People can sign out their other devices and delete their own account from **Settings → Account**.
 
 From the command line (works while the server runs):
 

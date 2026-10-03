@@ -78,6 +78,7 @@ license ([LICENSE](LICENSE)) doesn't change them.
 | atk | 0.18.2 | MIT | Copyrights in the gtk-rs Project project are retained by their contributors. |
 | atk-sys | 0.18.2 | MIT | Authors: The gtk-rs Project Developers |
 | atomic-waker | 1.1.2 | Apache-2.0 OR MIT | Copyright (c) 2016 Alex Crichton<br>Copyright (c) 2017 The Tokio Authors |
+| auto-launch | 0.5.0 | MIT | Copyright (c) 2022 zzzgydi |
 | autocfg | 1.5.1 | Apache-2.0 OR MIT | Copyright (c) 2018 Josh Stone |
 | base64 | 0.21.7 | MIT OR Apache-2.0 | Copyright (c) 2015 Alice Maz |
 | base64 | 0.22.1 | MIT OR Apache-2.0 | Copyright (c) 2015 Alice Maz |
@@ -135,7 +136,9 @@ license ([LICENSE](LICENSE)) doesn't change them.
 | derive_more | 2.1.1 | MIT | Copyright (c) 2016 Jelte Fennema |
 | derive_more-impl | 2.1.1 | MIT | Copyright (c) 2016 Jelte Fennema |
 | digest | 0.10.7 | MIT OR Apache-2.0 | Copyright (c) 2017 Artyom Pavlov |
+| dirs | 4.0.0 | MIT OR Apache-2.0 | Copyright (c) 2018-2019 dirs-rs contributors |
 | dirs | 7.0.0 | MIT OR Apache-2.0 | Copyright (c) 2018-2019 dirs-rs contributors |
+| dirs-sys | 0.3.7 | MIT OR Apache-2.0 | Copyright (c) 2018-2019 dirs-rs contributors |
 | dirs-sys | 0.5.0 | MIT OR Apache-2.0 | Copyright (c) 2018-2019 dirs-rs contributors |
 | dispatch2 | 0.3.1 | Zlib OR Apache-2.0 OR MIT | Authors: Mads Marquart <mads@marquart.dk>, Mary <mary@mary.zone> |
 | displaydoc | 0.2.7 | MIT OR Apache-2.0 | Authors: Jane Lusby <jlusby@yaah.dev> |
@@ -369,6 +372,7 @@ license ([LICENSE](LICENSE)) doesn't change them.
 | tauri-codegen | 2.7.0 | Apache-2.0 OR MIT | Copyright (c) 2017 - Present Tauri Apps Contributors |
 | tauri-macros | 2.7.0 | Apache-2.0 OR MIT | Copyright (c) 2017 - Present Tauri Apps Contributors |
 | tauri-plugin | 2.7.0 | Apache-2.0 OR MIT | Authors: Tauri Programme within The Commons Conservancy |
+| tauri-plugin-autostart | 2.6.0 | Apache-2.0 OR MIT | Copyright (c) 2017 - Present Tauri Apps Contributors |
 | tauri-plugin-deep-link | 2.6.0 | Apache-2.0 OR MIT | Copyright (c) 2017 - Present Tauri Apps Contributors |
 | tauri-plugin-global-shortcut | 2.4.0 | Apache-2.0 OR MIT | Copyright (c) 2017 - Present Tauri Apps Contributors |
 | tauri-plugin-notification | 2.5.0 | Apache-2.0 OR MIT | Copyright (c) 2017 - Present Tauri Apps Contributors |
@@ -424,6 +428,7 @@ license ([LICENSE](LICENSE)) doesn't change them.
 | webview2-com | 0.39.1 | MIT |  |
 | webview2-com-macros | 0.8.1 | MIT |  |
 | webview2-com-sys | 0.39.1 | MIT |  |
+| winapi | 0.3.9 | MIT OR Apache-2.0 | Copyright (c) 2015-2018 The winapi-rs Developers |
 | winapi-util | 0.1.11 | Unlicense OR MIT | Copyright (c) 2017 Andrew Gallant |
 | window-vibrancy | 0.8.1 | Apache-2.0 OR MIT | Copyright (c) 2020-2022 Tauri Programme within The Commons Conservancy |
 | windows | 0.61.3 | MIT OR Apache-2.0 | Copyright (c) Microsoft Corporation. |
@@ -458,6 +463,7 @@ license ([LICENSE](LICENSE)) doesn't change them.
 | windows_x86_64_msvc | 0.53.1 | MIT OR Apache-2.0 | Copyright (c) Microsoft Corporation. |
 | winnow | 0.5.40 | MIT |  |
 | winnow | 1.0.4 | MIT |  |
+| winreg | 0.10.1 | MIT | Copyright (c) 2015 Igor Shaula |
 | winreg | 0.55.0 | MIT | Copyright (c) 2015 Igor Shaula |
 | writeable | 0.6.4 | Unicode-3.0 | COPYRIGHT AND PERMISSION NOTICE<br>Copyright © 2020-2024 Unicode, Inc. |
 | wry | 0.57.0 | Apache-2.0 OR MIT | Copyright (c) 2020-2023 Ngo Iok Ui & Tauri Programme within The Commons Conservancy |

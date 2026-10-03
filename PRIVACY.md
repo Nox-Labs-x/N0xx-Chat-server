@@ -1,6 +1,6 @@
 # Privacy Policy
 
-**Effective: 2 October 2026**
+**Effective: 3 October 2026**
 
 **The short version:** N0xx Chat is built so that nobody can read your messages or calls. That
 includes us (Nox Labs) and whoever runs your server. There are no analytics and no tracking, and
@@ -27,10 +27,12 @@ The app stores its settings locally on your device:
   and camera, and your preferences;
 - the server address you entered;
 - if a server uses accounts, your sign-in token for that server (not your password);
+- unsent drafts, the people you've blocked, rooms you've muted, and your Do Not Disturb setting;
 - if **Remember recent rooms** is on (Settings → Privacy): recent room names, codes and servers.
 
-You can clear recent rooms in Settings → Privacy & safety, and remove everything by uninstalling the
-app. Screen recordings are saved on your own device (in the desktop app, in your Videos folder under
+You can clear recent rooms and unblock people in Settings → Privacy & safety, and remove everything
+by uninstalling the app. Blocking is private: the person isn't told, and nothing about it is sent
+anywhere. Screen recordings are saved on your own device (in the desktop app, in your Videos folder under
 "noxx chat") and are never uploaded. Recordings contain your screen, your microphone and your
 computer's sound. They never include other people's voices, cameras or screens from the app.
 
@@ -45,13 +47,16 @@ host turns it off). If you make an account, that server stores:
 - scrambled copies of your sign-in tokens, so your devices stay signed in for up to 60 days.
 
 This is kept in one file on the host's computer, and nowhere else. The server's admins can see the
-list of usernames and when they were last used, remove accounts and reset passwords. They can't see
-your password, your messages or anything else you send.
+list of usernames, who is online and when accounts were last used, remove accounts and reset
+passwords. They can't see your password, your messages or anything else you send. An admin can
+also give the server a name and a short welcome note, which anyone who opens the server's link
+can see.
 
 When you're signed in, the server tells the people in a room your username, so they can tell it's
 really you. It also means the server can tell which account is connected to which room identifier,
-and when (it still can't see the room's name, code or contents). To delete your account, ask the
-server's admin to remove it.
+and when (it still can't see the room's name, code or contents). To delete your account, use
+Settings → Account → Delete my account (or ask the server's admin to remove it). It's removed from
+the server straight away.
 
 ## What a server can see
 
@@ -76,7 +81,9 @@ you trust.
 ## What other people in a room can see
 
 Everyone who has a room's code can read the room's messages and see your display name, profile and
-voice or camera status. When someone joins, another member's device may share recent messages with
+voice or camera status, plus any pictures you send, your votes in polls and the messages you pin.
+Pictures are shrunk on your device and sent end-to-end encrypted like messages; they're never
+uploaded anywhere and aren't passed on to people who join later. When someone joins, another member's device may share recent messages with
 them (up to the last 100). Nothing is kept once everyone has left, and disappearing messages are
 removed from everyone's screen when their timer runs out.
 
